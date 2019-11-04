@@ -1,46 +1,38 @@
-## Making a Project Website
+## What is Chronic Wasting Disease?
 
-### Configuration variables
+Chronic Wasting Disease (CWD) is a contagious neurological disease affecting deer, elk and moose. It causes a characteristic spongy degeneration of the brains of infected animals resulting in emaciation, abnormal behavior, loss of bodily functions and death.
 
-This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
+CWD belongs to a group of diseases known as transmissible spongiform encephalopathies (TSEs). Within this family of diseases, there are several other variants that affect domestic animals: scrapie, which has been identified in domestic sheep and goats for more than 200 years, bovine spongiform encephalopathy (BSE) in cattle (also known as “mad cow disease”), and transmissible mink encephalopathy in farmed mink.
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+Several rare human diseases are also TSEs. Creutzfeldt-Jakob disease (CJD) occurs naturally in about one out of every one million people worldwide. Variant Creutzfeldt-Jakob disease (v-CJD) has been associated with the large-scale outbreak of BSE in cattle herds in Great Britain.
 
-Additionally, you may choose to set the following optional variables:
+## Why are we concerned about Chronic Wasting Disease?
 
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
-You can take a look at the `_config.yml` file in this repository to see how to type in the title and description.
+CWD poses serious problems for wildlife managers, and the implications for free-ranging deer and elk are significant:
 
-### Markdown
+* Ongoing surveillance programs are expensive and draw resources from other wildlife management needs.
+* Impacts of CWD on population dynamics of deer and elk are presently unknown. Computer modeling suggests that CWD could substantially reduce infected cervid populations by lowering adult survival rates and destabilizing long-term population dynamics.
+* Where it occurs, CWD may alter the management of wild deer and elk populations, and it has already begun to do so.
+* Ultimately, public and agency concerns and perceptions about human health risks associated with all TSE’s may erode hunters confidence and their willingness to hunt in areas where CWD occurs.
 
-You can see this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to work with Markdown language for adding features into this website.  This includes how to add headers, organization (e.g., bullets or lists), tables, and images.  It also includes how to add code to a website.
+## How do we study Chronic Wasting Disease in this project?
 
-*Note that for images, you will need to place the image file in a place that it can be referenced and called.  I would suggest the github repo might be a good solution.  Often, I make an images folder and can call the raw images file.
+We propose to evaluate the effectiveness of Raman spectroscopy on skin biopsies from white-tailed deer infected with CWD.  Raman spectroscopy is a rapid, repeatable and widely used non-destructive analysis technology that has been widely used in many applications including diagnostic medicine. Application of Raman spectroscopy to an easily obtainable skin biopsy could transform our ability to identify CWD infected animals and control the spread of the disease.
 
-See example [here](https://github.com/pages-themes/slate/blob/master/index.md).  You can see the raw code also.
+### Samples preparation
 
-#### Relative Links
-To create links to other pages, you can read this article:  https://github.blog/2016-12-05-relative-links-for-github-pages/.  Note that these pages should by default direct to the same local folder/directory the index file is.  In this case, my README.md file is my index. If the files are in a different folder, one should specifiy the path for that folder.
 
-### Notebooks
 
-You can use a website to host notebooks.  First, you'll want to get the "raw" url from Github where your notebook is stored.  Then, navigate to https://nbviewer.jupyter.org and paste that URL.  The result will be a new generated URL that hosts your notebook.  This can be a [link](https://nbviewer.jupyter.org/github/isu-abe/516x/blob/master/module2/bootcamp/notebooks/nocode/Module%20IIB%20-%20Python%20Basics%20-%20no%20code.ipynb) in your website.
+### Raman Spectrum collection 
 
-## Suggestions for Project Reporting
 
-### Interesting question 
 
-What is the scientitifc goal?  What would you do if you had all the data?  What do you want to predict or estimate?  Why is this relevant to ABE researchers or the field?  Provide some background on the rationale and relevance.
+### Raman Spectrum Data Analyze
 
-### Data description
 
-What kind of data is avialble?  How is your data collected?  Are there any concerns about the data?  Which data is the most relevant?  Is the data easy to acccess? Will the data change over time?  What needs to be done to the data to get it ready for any downstream analysis?
+
+
+
 
 ### Explore the data
 
