@@ -1,5 +1,4 @@
 ## What is Chronic Wasting Disease?
-
 Chronic Wasting Disease (CWD) is a contagious neurological disease affecting deer, elk and moose. It causes a characteristic spongy degeneration of the brains of infected animals resulting in emaciation, abnormal behavior, loss of bodily functions and death.
 
 CWD belongs to a group of diseases known as transmissible spongiform encephalopathies (TSEs). Within this family of diseases, there are several other variants that affect domestic animals: scrapie, which has been identified in domestic sheep and goats for more than 200 years, bovine spongiform encephalopathy (BSE) in cattle (also known as “mad cow disease”), and transmissible mink encephalopathy in farmed mink.
@@ -7,7 +6,6 @@ CWD belongs to a group of diseases known as transmissible spongiform encephalopa
 Several rare human diseases are also TSEs. Creutzfeldt-Jakob disease (CJD) occurs naturally in about one out of every one million people worldwide. Variant Creutzfeldt-Jakob disease (v-CJD) has been associated with the large-scale outbreak of BSE in cattle herds in Great Britain.
 
 ## Why are we concerned about Chronic Wasting Disease?
-
 CWD poses serious problems for wildlife managers, and the implications for free-ranging deer and elk are significant:
 
 * Ongoing surveillance programs are expensive and draw resources from other wildlife management needs.
@@ -16,18 +14,27 @@ CWD poses serious problems for wildlife managers, and the implications for free-
 * Ultimately, public and agency concerns and perceptions about human health risks associated with all TSE’s may erode hunters confidence and their willingness to hunt in areas where CWD occurs.
 
 ## How do we study Chronic Wasting Disease in this project?
-
 We propose to evaluate the effectiveness of Raman spectroscopy on skin biopsies from white-tailed deer infected with CWD.  Raman spectroscopy is a rapid, repeatable and widely used non-destructive analysis technology that has been widely used in many applications including diagnostic medicine. Application of Raman spectroscopy to an easily obtainable skin biopsy could transform our ability to identify CWD infected animals and control the spread of the disease.
 
 ### Samples preparation
 
+#### Set 1
+All of skin samples are from tail head. They are fixed in formaldehyde, then rinsed with ethanol and embedded in paraffin. After embedding, they are put on gold slides to prepare detection.
+
+#### Set 2
+Deparaffin skin samples in set 1. 
+To deparaffinize the slides, they have to undergo incubation in xylene followed by a descending alcohol series as follows: 
+1. 10min incubation in Xylene
+2. 10min incubation in 100% ethanol
+3. 10min incubation in 95% ethanol
+4. 10min incubation in 70% ethanol
+5. 10min incubation in DI water. 
+
+### Raman spectrum collection 
 
 
-### Raman Spectrum collection 
 
-
-
-### Raman Spectrum Data Analyze
+### Raman spectrum Data Analyze
 
 
 
