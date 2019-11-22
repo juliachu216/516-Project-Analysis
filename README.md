@@ -42,31 +42,21 @@ Set 2:
 ### Raman spectrum Data Analyze
 
 #### Pre-processing
-1. Combine negative and positive data separately
-
-  Columns are wavelength value. Rows are different samples.
-2. Smooth by moving average method
-
-  Define a smooth function
-3. Baseline Correction by polynomial fitting method
-
-  Define a baseline correction function
+1. Combine negative and positive data separately - Columns are wavelength value. Rows are different samples.
+  
+2. Smooth by moving average method - Define a smooth function
+  
+3. Baseline Correction by polynomial fitting method - Define a baseline correction function
 
 
 The final data frame is 520 rows × 1557 columns. The first 280 rows are negative signed as N, and the rest are positive signed as P.
 
 #### Classification
-1. Principal Component Analysis
+1. Principal Component Analysis - Reduce the variable to 10 components.
 
-  Reduce the variable to 10 components.
+2. Support Vector Machine - Use GridSearchCV to find the best parameters in suport vector machine.
 
-2. Support Vector Machine
-
-  Use GridSearchCV to find the best parameters in suport vector machine.
-
-3. Neural Network
-
-  Create a neural network model with 9 hidden layers, and the output layer is 2 classes (binary classification, 0 or 1). 
+3. Neural Network - Create a neural network model with 9 hidden layers, and the output layer is 2 classes (binary classification, 0 or 1). 
 
 ### Communciate and visualize the results
 
