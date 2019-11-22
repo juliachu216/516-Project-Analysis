@@ -43,6 +43,7 @@ Set 2:
 2. Smooth by moving average method - Define a smooth function
   
 3. Baseline Correction by polynomial fitting method - Define a baseline correction function
+
 [Pre-processing Notebook](https://github.com/juliachu216/ABE-516X-Project/blob/master/analysis/Pre-process%20data.ipynb)
 
 The final data frame is 520 rows × 1557 columns. The first 280 rows are negative signed as N, and the rest are positive signed as P.
