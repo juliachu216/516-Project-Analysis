@@ -34,6 +34,10 @@ Device: DXR Raman Microscope
 
 ### Raman spectrum Data Analyze
 
+#### Raw Data
+
+You can download all Raman spectral data from this [zip file](https://github.com/juliachu216/ABE-516X-Project/blob/master/Raw%20Data.zip)
+
 #### Pre-processing
 
 1. Combine negative and positive data separately - Columns are wavelength value. Rows are different samples.
