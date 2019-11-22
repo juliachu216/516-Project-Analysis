@@ -16,13 +16,8 @@ CWD poses serious problems for wildlife managers, and the implications for free-
 ## How do we study Chronic Wasting Disease in this project?
 We propose to evaluate the effectiveness of Raman spectroscopy on skin biopsies from white-tailed deer infected with CWD. We collected two sets of Raman spectrum data, oringinal samples and deparaffined samples, to compare the accuracy after machine learning.  
 
-### Samples preparation
-
-#### Set 1 - Oringnal Samples
-All of skin samples are from tail head. They are fixed in formaldehyde, then rinsed with ethanol and embedded in paraffin. After embedding, they are put on gold slides to prepare detection.
-
-#### Set 2 - Deparaffined Samples
-Deparaffin skin samples in set 1. 
+### Deparaffined Samples preparation
+All of skin samples were from tail head. They were fixed in formaldehyde, rinsed with ethanol, embedded in paraffin, and put on gold slides finally. After we got gold slides with skin samples, we removed paraffine on samples to detect Raman spectrum. 
 To deparaffinize the slides, they have to undergo incubation in xylene followed by a descending alcohol series as follows: 
 1. 10min incubation in Xylene
 2. 10min incubation in 100% ethanol
