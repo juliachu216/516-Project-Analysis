@@ -31,20 +31,32 @@ To deparaffinize the slides, they have to undergo incubation in xylene followed 
 5. 10min incubation in DI water. 
 
 ### Raman spectrum collection 
-
-
+Device: DXR Raman Microscope 
+Set 1: 
+* 20 sec exposure time with 2 sample exposures
+* 10x 0.25 BD microscope objective
+Set 2: 
+* 20 sec exposure time with 5 sample exposures
+* 10x 0.25 BD microscope objective
 
 ### Raman spectrum Data Analyze
 
 #### Pre-processing
-1. Smooth
-2. Baseline Correction 
+1. Combine negative and positive data separately
+Columns are wavelength value. Rows are different samples.
+2. Smooth by moving average method
+Define a smooth function
+3. Baseline Correction by polynomial fitting method
+Define a baseline correction function
 
+The final data frame is 520 rows × 1557 columns. The first 280 rows are negative signed as N, and the rest are positive signed as P.
 #### Classification
 1. Principal Component Analysis
-
+Reduce the variable to 10 components.
 2. Support Vector Machine
-
+Use GridSearchCV to find the best parameters in suport vector machine.
+3. Neural Network
+Create a neural network model with 9 hidden layers, and the output layer is 2 classes (binary classification, 0 or 1). 
 ### Communciate and visualize the results
 
 What did you learn and do the results make sense?  Revisit your initial question and answer it. 
