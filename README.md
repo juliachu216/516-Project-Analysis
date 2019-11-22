@@ -36,7 +36,7 @@ Raman Spectra
 
 All raman spectra was collected like image below.
 
-![Raman Spectra](Raman Spectra.png)
+![Raman Spectra](Spectra.png)
 
 
 ### Raman spectrum Data Analyze
