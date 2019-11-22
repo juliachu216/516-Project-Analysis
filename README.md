@@ -27,10 +27,7 @@ To deparaffinize the slides, they have to undergo incubation in xylene followed 
 
 ### Raman spectrum collection 
 Device: DXR Raman Microscope 
-Set 1: 
-* 20 sec exposure time with 2 sample exposures
-* 10x 0.25 BD microscope objective
-Set 2: 
+[Raman Microscope](https://github.com/juliachu216/ABE-516X-Project/blob/master/photos/Device.png)
 * 20 sec exposure time with 5 sample exposures
 * 10x 0.25 BD microscope objective
 
