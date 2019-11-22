@@ -32,6 +32,13 @@ Device: DXR Raman Microscope
 * 20 sec exposure time with 5 sample exposures
 * 10x 0.25 BD microscope objective
 
+Raman Spectra
+
+All raman spectra was collected like image below.
+
+![Raman Spectra](Raman Spectra.png)
+
+
 ### Raman spectrum Data Analyze
 
 #### Raw Data
