@@ -14,7 +14,7 @@ CWD poses serious problems for wildlife managers, and the implications for free-
 * Ultimately, public and agency concerns and perceptions about human health risks associated with all TSE’s may erode hunters confidence and their willingness to hunt in areas where CWD occurs.
 
 ## How do we study Chronic Wasting Disease in this project?
-We propose to evaluate the effectiveness of Raman spectroscopy on skin biopsies from white-tailed deer infected with CWD. We collected two sets of Raman spectrum data, oringinal samples and deparaffined samples, to compare the accuracy after machine learning.  
+We propose to evaluate the effectiveness of Raman spectroscopy on skin biopsies from white-tailed deer infected with CWD. We collected Raman spectrum data of deparaffined samples, and compare the accuracy for different machine learning method, support vector machine and neural network.  
 
 ### Deparaffined Samples preparation
 All of skin samples were from tail head. They were fixed in formaldehyde, rinsed with ethanol, embedded in paraffin, and put on gold slides finally. After we got gold slides with skin samples, we removed paraffine on samples to detect Raman spectrum. 
@@ -38,8 +38,9 @@ All raman spectra was collected like image below.
 
 ![Raman Spectra](Spectra.png)
 
+[Plot Raman spectrum python notebook]( )
 
-### Raman spectrum Data Analyze
+### Raman spectrum Data Analysis
 
 #### Raw Data
 
@@ -54,7 +55,7 @@ You can download all Raman spectral data from this [zip file](https://github.com
 3. Baseline Correction by polynomial fitting method - Define a baseline correction function
 
 
-[Pre-processing Notebook](https://nbviewer.jupyter.org/github/juliachu216/ABE-516X-Project/blob/master/analysis/Pre-process%20data.ipynb)
+[Pre-processing python notebook in Jupyter](https://nbviewer.jupyter.org/github/juliachu216/ABE-516X-Project/blob/master/analysis/Pre-process%20data.ipynb)
 
 
 The final data frame is 520 rows × 1557 columns. The first 280 rows are negative signed as N, and the rest are positive signed as P.
@@ -67,7 +68,7 @@ The final data frame is 520 rows × 1557 columns. The first 280 rows are negativ
 3. Neural Network - Create a neural network model with 9 hidden layers, and the output layer is 2 classes (binary classification, 0 or 1). 
 
 
-[Classification Notebook](https://nbviewer.jupyter.org/github/juliachu216/ABE-516X-Project/blob/master/analysis/Classification.ipynb)
+[Classification python notebook in Jupyter](https://nbviewer.jupyter.org/github/juliachu216/ABE-516X-Project/blob/master/analysis/Classification.ipynb)
 
 ### Communciate and visualize the results
 
